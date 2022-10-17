@@ -1,0 +1,119 @@
+.newsletter-container{
+
+    background-image: url('./../../Assets/newsletter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .newsletter-content{
+        width: 70%;
+        padding-top: 180px;
+        margin: auto;
+        padding-bottom: 180px;
+
+        h1{
+            font-size:63px;
+            background: linear-gradient(263.24deg, #FCF9FF 21.05%, #989899 77.63%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+            font-family: 'Open Sans';
+            font-weight: 400;
+        }
+        h5{
+            margin-top: 60px;
+            font-size: 38px;
+            color: #949494;
+            font-weight: 400;
+            margin-bottom: 40px;
+          
+        }
+        form{
+            position: relative;
+        }
+
+        button{
+            background: transparent;
+            border: none;
+            position: absolute;
+            left: 65%;
+            top: 21%;
+            font-size: 35px;
+            color: #ba9e8e;
+        }
+        .email{
+            width: 65%;
+            font-size: 18px;
+            padding: 15px 30px;
+            border-radius: 10px;
+            border: solid 4px #ba9e8e;
+            color : #FCF9FF;
+            background-color: transparent;
+            font-family: 'Open Sans', sans-serif;   
+        }
+
+
+    }
+}
+
+@media screen and (max-width: 890px){
+    .newsletter-container{
+        
+        .newsletter-content{
+            padding-top: 130px !important;
+            padding-bottom: 130px !important;
+            h1{
+                font-size: 45px !important;
+            }
+            h5{
+                font-size: 20px !important;
+                margin-bottom: 20px !important;
+                text-align: center;
+            }
+            .email{
+                font-size: 15px !important;
+                width: 90% !important;
+                padding: 14px 24px;
+                
+            }
+            button{
+                
+                left: 93%;
+                top: 25%;
+                font-size: 27px !important;
+        
+            }
+        }
+    }
+}
+ 
+@media screen and (max-width: 490px){
+    .newsletter-container{
+        
+        .newsletter-content{
+            padding-top: 130px !important;
+            padding-bottom: 130px !important;
+            h1{
+                font-size: 45px !important;
+            }
+            h5{
+                font-size: 20px !important;
+                margin-bottom: 20px !important;
+                text-align: center;
+            }
+            .email{
+                font-size: 15px !important;
+                width: 80% !important;
+                padding: 14px 24px;
+                
+            }
+            button{
+                
+                left: 83%;
+                top: 25%;
+                font-size: 27px !important;
+        
+            }
+        }
+    }
+    
+}
