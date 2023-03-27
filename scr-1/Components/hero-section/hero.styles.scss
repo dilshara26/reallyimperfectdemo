@@ -48,27 +48,20 @@
                 font-weight: 400;
             }
             .gin-btn{
-                
+                background-image: linear-gradient(to right, rgba(186, 158, 142, 1),
+                rgba(243, 201, 173, 1));
 	            border-radius: 10px;
                 box-sizing: border-box;
-	            color: rgba(186, 158, 142, 1);
+	            color: #fff2f2;
                 padding: 1px;
                 font-size: 18px;
                 box-sizing: border-box;
                 border:3px solid transparent;
                 width: 210px;
                 height: 60px;
-                background:
-                url('./../../Assets/Hero\ Section.png') padding-box fixed,
-    linear-gradient(45deg, rgba(186, 158, 142, 1),
-    rgba(243, 201, 173, 1)) border-box;
-      
-           
-            }
-            .gin-btn:hover{
                 background:  linear-gradient(-45deg, #6a6bfa 0%, #6a6afaf3 100%) padding-box fixed,
                 linear-gradient(-45deg, #b1b1b1 0%, #a9a3a0 100%) border-box;
-                color: #f7f7f7;
+           
             }
 
         }
@@ -110,7 +103,7 @@
             padding-right: 40px !important;
             img{
     
-                width: 15% !important;  ;
+                width: 100px !important;
                 
             }
         }
@@ -146,7 +139,7 @@
             padding-right: 60px !important;
             img{
     
-                width: 20% !important;
+                width: 50px !important;
                 
             }
         }

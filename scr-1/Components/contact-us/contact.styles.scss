@@ -43,21 +43,12 @@
             .local{
                 display: grid;
                 grid-template-columns: 3fr 4fr;
-                h3{
-                    font-size: 33px;
-                    font-weight: 400;
-
-                }
                 p{
                     font-size: 22px;
-                    margin-right: 10px;
                 }
                 .map{
                     justify-content: end;
                     text-align: end;
-                    p{
-                        margin: 0%;
-                    }
                 }
                 img{
                     height: 336px;
@@ -85,14 +76,14 @@
                 
                    
 	            border-radius: 10px;
-	            color: #272424a8;
+	            color: #272424;
                 padding: 1px;
                 font-size: 20px;
                 border:3px solid transparent;
-                width: 250px;
+                width: 230px;
                 height: 70px;
                 background:  linear-gradient(#ecedec, #ecedecf9) padding-box fixed, 
-                linear-gradient(45deg, #ba9e8e 0%, #f3c9ad 100%) border-box;
+                linear-gradient(-45deg, #ba9e8e 0%, #f3c9ad 100%) border-box;
            
             }
             
@@ -141,10 +132,6 @@
                     display: block !important;
                     .map{
                         text-align: left !important;
-                        .map-frame{
-                            width: 80% !important;
-                            height: 300px !important;
-                        }
                     }
                 }
             

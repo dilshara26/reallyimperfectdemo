@@ -3,7 +3,7 @@ import { BsChevronRight,BsChevronLeft } from "react-icons/bs";
 
 const Newsletter = ()=>{
   return(
-    <div id='newsletter' className="newsletter-container">
+    <div className="newsletter-container">
         <div className="newsletter-content">
             <h1>Delivering Value in every step of production</h1>
             <h5>Subscribe the Newsletter </h5>

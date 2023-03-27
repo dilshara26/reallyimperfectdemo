@@ -3,7 +3,6 @@
     background-image: url('./../../Assets/newsletter.png');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
     .newsletter-content{
         width: 70%;
         padding-top: 180px;
@@ -19,7 +18,6 @@
             text-fill-color: transparent;
             font-family: 'Open Sans';
             font-weight: 400;
-            line-height: 75px;
         }
         h5{
             margin-top: 60px;
@@ -37,17 +35,17 @@
             background: transparent;
             border: none;
             position: absolute;
-            left: 65%;
-            top: 21%;
+            left: 46%;
+            top: 23%;
             font-size: 35px;
             color: #ba9e8e;
         }
         .email{
-            width: 65%;
-            font-size: 18px;
-            padding: 15px 30px;
+            width: 45%;
+            font-size: 22px;
+            padding: 19px 30px;
             border-radius: 10px;
-            border: solid 4px #ba9e8e;
+            border: solid 5px #ba9e8e;
             color : #FCF9FF;
             background-color: transparent;
             font-family: 'Open Sans', sans-serif;   

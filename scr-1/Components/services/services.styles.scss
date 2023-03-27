@@ -26,9 +26,8 @@
 
 
 .services-section{
-    height: 100vh !important;
     display: grid;
-    grid-template-columns: 6fr 6fr !important;
+    grid-template-columns: 4fr 6fr !important;
     background-color: #f4f4f4;
     z-index: -1;
     box-sizing: border-box;
@@ -60,8 +59,8 @@
 
     .services-image-section{
         display: grid;
-        grid-template-columns: 5fr 5fr ;
-        
+        grid-template-columns: 1fr 1fr 1fr;
+        height: 1117px;
         justify-content: end;
         
 
@@ -80,27 +79,24 @@
             h2:hover{
                 transform: scale(1.03); 
             }
-            img{
-                width: 100%;
-            }
             p{
                 color:#f4f4f4 !important;
                 position: absolute;
-               
+              
                 top: 14%;
                 font-size: 12px;
                 width: 80%;
                 padding: 20px ;
                 transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
             }
-          
+            
             .bottom-btn{
                 position: absolute;
-                bottom: 50%;
+                bottom: 17px;
                 left: 36px;
                 color: aliceblue;
                 align-items: center;
-                font-size: 25px;
+                font-size: 30px;
 
                 span{
                     position: relative;
@@ -111,13 +107,9 @@
                     }
                 };
             }
-            #webdev{
-                position: absolute;
-                bottom: 3% !important;
-            }
             .top-btn{
                 position: absolute;
-                top: 25px;
+                top: 30px;
                 left: 44px;
                 color: aliceblue;
                 align-items: center;
@@ -151,7 +143,7 @@
 @media screen and (max-width: 1290px) {
    
     .content-section{
-        // width: 300px !important;
+        width: 300px !important;
     }
 
     .services-section{
@@ -161,11 +153,10 @@
         }
        .services-image-section{
         .bottom-btn{
-            
-            bottom: 17px !important;
+            font-size: 20px !important;
         }
         .top-btn{
-           
+            font-size: 20px !important;
         }
        } 
  
@@ -186,7 +177,6 @@
     }
     
     .services-section{
-
         height: 450px !important;
         img{
          width: 100% !important;
@@ -194,7 +184,7 @@
         .services-image-section{
         .service-col{
             h2{
-                font-size: 12px ;
+                font-size: 12px !important;
                 span{
                     margin-right: 22px !important;
                     .arrow-left{
@@ -205,13 +195,11 @@
             
         }
          .bottom-btn{
-             font-size: 140% !important ;
-             bottom: 63px !important;
+             font-size: 14px !important;
          }
          .top-btn{
-             font-size: 14px ;
-             left: 14px !important;
-             font-size: 140% !important;
+             font-size: 14px !important;
+             left: 20px !important;
            
          }
         } 
@@ -236,7 +224,6 @@
         .services-image-section{
             .service-col .bottom-btn {
                 left: 20px !important;
-               
             }
         } 
     }
@@ -270,17 +257,11 @@
 
         .content-section{
             padding-bottom: 80px !important;
-            padding-left: 40px !important;
-           
         }
         .services-image-section{
             display: block !important;
             height: auto !important;
             padding: 0 2px  !important;
-            h2{
-                font-size: 18px !important;
-            }
-           
             .service-col-1, .service-col-3{
                 img{
                     height: 700px;
@@ -288,10 +269,7 @@
             }
             .service-col-2{
                 margin: 0% !important;
-                .bottom-btn{
-                    
-                    bottom: 17px !important;
-                }
+
                 .row-1{
                     padding-bottom: 0px !important;
                 }

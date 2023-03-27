@@ -58,7 +58,7 @@ const Services = ()=>{
 
     
     return(
-        <div id="aboutus" className="services-section">
+        <div className="services-section">
             <div className="content-section">
 
                 <h1>A full-size product development <br /> software company </h1>
@@ -68,7 +68,7 @@ const Services = ()=>{
 
             </div>
             <div className="services-image-section">
-                {/* <div className="service-col-1 service-col">
+                <div className="service-col-1 service-col">
                     <img src={uiux} alt="" /> 
                     <Link>
                     <h2 id='uiux' className={`top-btn`} onClick={clickFunc}><span>< BsArrowDown className='arrow-left'/> </span> UI/UX</h2>
@@ -77,7 +77,7 @@ const Services = ()=>{
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum voluptatem autem magnam praesentium quaerat voluptatibus, tempore sed.
                     </p>
                     
-                </div> */}
+                </div>
                 <div className="service-col-2">
                     <div className="row-1 service-col">
                         <img src={webdevelop} alt="" /> 
